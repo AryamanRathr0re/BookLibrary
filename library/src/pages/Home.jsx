@@ -36,7 +36,7 @@ export default function Home() {
       />
       <Pagination
         currentPage={currentPage}
-        // totalpges={totalpges}
+        //  totalpges={totalpges}
         onpageChange={(page) => dispatch(setCurrentPage(page))}
       />
     </div>
